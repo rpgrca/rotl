@@ -103,6 +103,11 @@ h2.title {
     font-family: monospace;
 }
 
+a.wikipedia {
+    display: none;
+    text-decoration: none;
+}
+
 a img {
     color: #FFFFFF;
 }
