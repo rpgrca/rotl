@@ -111,8 +111,8 @@ span.tooltip {
 	text-decoration: none;
 }
 
-u.invisible {
-    text-decoration: none;
+hr.invisible {
+    display: none;
 }
 
 
