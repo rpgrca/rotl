@@ -1,0 +1,55 @@
+/*
+ *  Stylesheet for the navigator. Includes some "fixes" for IE.
+ *
+ *  ReyBrujo, 2005
+ */
+
+
+div.navigator {
+    position: fixed;
+    float: left;
+
+    padding: 1%;
+    top: 1%;
+    left: 1%;
+    width: 15%;
+
+    min-height: 94%;
+
+    background-color: #FFFFFF;
+    border: 1px dotted #000000;
+}
+
+a.navigator {
+    text-align: center;
+    text-decoration: none;
+    font-size: medium;
+    font-style: italic;
+    font-family: monospace;
+    color: #3885CA;
+
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+    padding: 1%;
+
+    /*  Create a bounding box in each navigator link to give shape
+     *  to the buttons.
+     */
+    display: block;
+
+    border-top: 1px solid #3885CA;
+    border-left: 1px solid #3885CA;
+    border-right: 2px solid #3885CA;
+    border-bottom: 2px solid #3885CA;
+}
+
+a.navigator:hover {
+    background-color: #AADDFF;
+    color: #000000;
+}
+
+
+/*
+ * vim:tw=78:ts=4:et
+ */

@@ -1,9 +1,18 @@
-@import url(basic.css);
+/*
+ *  Wiki stylesheet.
+ *
+ *  ReyBrujo, 2005
+ */
 
-a.wikipedia {
-    display: inline;
-}
 
-span.wikipedia {
-    background-color: #DDEEFF;
-}
+@import url(basic_header.css);
+@import url(basic_navigator.css);
+@import url(basic_body.css);
+@import url(basic_bottom.css);
+@import url(basic_misc.css);
+@import url(basic_wikipedia.css);
+
+
+/*
+ * vim:tw=78:ts=4:et
+ */

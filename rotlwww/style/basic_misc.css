@@ -1,0 +1,121 @@
+/*
+ *  Stylesheet for general purpose styles.
+ *
+ *  ReyBrujo, 2005
+ */
+
+
+html, body {
+    background-color: #3885CA;
+    color: #000000;
+}
+
+acronym {
+    font-style: italic;
+    color: #7EB6E1;
+    cursor: help;
+}
+
+/*
+div.menu {
+    display: none;
+    position: absolute;
+    z-index: 0;
+
+    top: 1em;
+    left: 25%;
+    width: 58%;
+    min-height: 50%;
+
+    padding-left: 1%;
+    padding-right: 1%;
+
+    background-color: #94CDFF;
+    border: 1px dotted #000000;
+}*/
+
+h2.title {
+    position: relative;
+    float: left;
+    display: inline;
+
+    text-align: left;
+    font-size: 12pt;
+    font-weight: normal;
+    font-style: italic;
+    font-family: monospace;
+}
+
+a.wikipedia {
+    display: none;
+    text-decoration: none;
+}
+
+a img {
+    color: #FFFFFF;
+}
+
+h2.version {
+    float: right;
+
+    text-align: right;
+	font-weight: normal;
+    font-size: 12pt;
+    font-style: italic;
+    font-family: monospace;
+}
+
+div.justified {
+    text-align: justify;
+}
+
+hr.title {
+    clear: both;
+    color: #3885CA;
+}
+
+
+/*
+    a span {
+        display: none;
+        text-decoration: none;
+    }
+*/
+
+/*
+a:hover {
+	background-color: #B2DAFF;
+}
+*/
+a:hover img {
+    background-color: #FFFFFF;
+}
+
+a:hover span {
+	position: relative;
+	display: block;
+
+	top: 10px;
+	left: 30px;
+	padding-left: 1%;
+	padding-right: 1%;
+
+	background-color: #B2DAFF;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	color: #000000;
+}
+
+span.tooltip {
+	display: none;
+	text-decoration: none;
+}
+
+u.invisible {
+    text-decoration: none;
+}
+
+
+/*
+ * vim:tw=78:ts=4:et
+ */
