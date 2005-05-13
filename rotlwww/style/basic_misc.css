@@ -16,24 +16,6 @@ acronym {
     cursor: help;
 }
 
-/*
-div.menu {
-    display: none;
-    position: absolute;
-    z-index: 0;
-
-    top: 1em;
-    left: 25%;
-    width: 58%;
-    min-height: 50%;
-
-    padding-left: 1%;
-    padding-right: 1%;
-
-    background-color: #94CDFF;
-    border: 1px dotted #000000;
-}*/
-
 h2.title {
     position: relative;
     float: left;
@@ -111,7 +93,7 @@ span.tooltip {
 	text-decoration: none;
 }
 
-hr.invisible {
+.invisible {
     display: none;
 }
 
