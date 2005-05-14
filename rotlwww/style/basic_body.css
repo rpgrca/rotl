@@ -23,9 +23,9 @@ div.body {
 }
 
 span.question {
-	display: list-item;
+    display: list-item;
     list-style-position: inside;
-	font-style: italic;
+    font-style: italic;
 }
 
 p.body {

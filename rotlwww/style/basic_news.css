@@ -1,0 +1,30 @@
+/*
+ *  Styles exclusive for the news page.
+ *
+ *  ReyBrujo, 2005
+ */
+
+
+h3.news-date {
+    display: list-item;
+    list-style-position: inside;
+
+    font-weight: normal;
+    font-family: monospace;
+}
+
+div.news-item {
+    display: list-item;
+    list-style: circle;
+    list-style-position: inside;
+
+    margin-bottom: 1%;
+    padding-left: 5%;
+    font-size: 8pt;
+    font-family: monospace;
+}
+
+
+/*
+ * vim:tw=78:ts=4:et
+ */
