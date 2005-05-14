@@ -6,25 +6,35 @@
 
 
 div.stylesheet-selector {
-    z-index: 1;
-
     margin-top: 1%;
-    width: 15%;
-
-    padding-left: 1%;
-    padding-right:1%;
 
     padding: 1%;
-    top: 1%;
-    left: 1%;
-    width: 100%;
 
     background-color: #FFFFFF;
+    border-top: 1px solid #3885CA;
+    border-left: 1px solid #3885CA;
+    border-right: 2px solid #3885CA;
+    border-bottom: 2px solid #3885CA;
 }
 
 
 select.stylesheet-selector {
-    vertical-align: text-bottom;
+    font-family: "Courier New", monospace;
+    font-size: 8pt;
+    width: 100%;
+}
+
+
+label.selector {
+    font-family: "Courier New", monospace;
+    font-size: 8pt;
+
+    color: #3885CA;
+    text-align: center;
+}
+
+
+button.button-stylesheet {
     width: 100%;
 }
 

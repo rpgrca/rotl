@@ -3,12 +3,14 @@
 <html lang="en">
     <head>
         <meta content="text/html; charset=us-ascii" http-equiv="content-type">
+        <META http-equiv="Content-Script-Type" content="text/javascript">
         <title>News</title>
         <link rel="stylesheet" type="text/css" href="style/basic.css" title="Basic">
         <LINK rel="stylesheet" type="text/css" href="style/basic_news.css" title="Basic">
         <link rel="alternate stylesheet" href="style/wikipedia.css" title="Basic+Wikipedia" type="text/css">
         <LINK rel="alternate stylesheet" href="style/basic_news.css" title="Basic+Wikipedia" type="text/css">
         <LINK rel="alternate stylesheet" href="style/none.css" title="None" type="text/css">
+<!--[if IE]><link rel="stylesheet" type="text/css" href="/css/ie.css" /><![endif]-->
         <script type="text/javascript" src="scripts/styleswitcher.js"></script>
     </HEAD>
 
@@ -26,13 +28,24 @@
                 </P>
                 </MAP>
 
-                <DIV class="stylesheet-selector" id="selector">
-                    <SELECT class="stylesheet-selector" name="Stylesheet Selector" size="5" id="stylesheet_selector" onchange="setActiveStyleSheet(this.options[this.options.selectedIndex].value);">
-                        <option value="Basic">Basic</OPTION>
-                        <option value="Basic+Wikipedia">Basic+Wikipedia</OPTION>
-                        <OPTION value="None">None</OPTION>
-                    </SELECT>
+                <DIV class="stylesheet-selector">
+                    <HR class="invisible">
+                    <P class="invisible">
+                        If your browser supports stylesheets and javascript, the
+                        following menu will allow you to switch between different
+                        stylesheets.
+                    </P>
+                    <DIV id="selector">
+                        <LABEL class="selector" for="stylesheet_selector">Style selector:</LABEL>
+                        <SELECT class="stylesheet-selector" name="Stylesheet Selector" size="5" id="stylesheet_selector"> <!-- onchange="setActiveStyleSheet(this.options[this.options.selectedIndex].value);"> -->
+                            <option value="Basic">Basic</OPTION>
+                            <option value="Basic+Wikipedia">Basic+Wikipedia</OPTION>
+                            <OPTION value="None">None</OPTION>
+                        </SELECT>
+                        <BUTTON class="button-stylesheet" type="button" onclick="setActiveStyleSheet(document.getElementById('stylesheet_selector').value);">Change</BUTTON>
+                    </DIV>
                 </DIV>
+                <HR class="invisible">
             </DIV>
 
             <DIV id="header">

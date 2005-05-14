@@ -3,13 +3,14 @@
 <html lang="en">
     <head>
         <meta content="text/html; charset=us-ascii" http-equiv="content-type">
+        <META http-equiv="Content-Script-Type" content="text/javascript">
         <title>Links</title>
         <link rel="stylesheet" type="text/css" href="style/basic.css" title="Basic">
         <link rel="stylesheet" type="text/css" href="style/basic_links.css" title="Basic">
-<!--    <link rel="alternate stylesheet" href="style/extra.css" title="Extra" type="text/css"> -->
         <link rel="alternate stylesheet" href="style/wikipedia.css" title="Basic+Wikipedia" type="text/css">
         <link rel="alternate stylesheet" href="style/basic_links.css" title="Basic+Wikipedia" type="text/css">
         <link rel="alternate stylesheet" href="style/none.css" title="None" type="text/css">
+<!--[if IE]><link rel="stylesheet" type="text/css" href="/css/ie.css" /><![endif]-->
         <script type="text/javascript" src="scripts/styleswitcher.js"></script>
     </head>
 
@@ -27,14 +28,24 @@
                 </P>
                 </MAP>
 
-                <DIV class="stylesheet-selector" id="selector">
-                    <SELECT class="stylesheet-selector" name="Stylesheet Selector" size="5" id="stylesheet_selector" onchange="setActiveStyleSheet(this.options[this.options.selectedIndex].value);">
-                        <option value="Basic">Basic</OPTION>
-                        <option value="Basic+Wikipedia">Basic+Wikipedia</OPTION>
-                        <OPTION value="None">None</OPTION>
-                    </SELECT>
+                <DIV class="stylesheet-selector">
+                    <HR class="invisible">
+                    <P class="invisible">
+                        If your browser supports stylesheets and javascript, the
+                        following menu will allow you to switch between different
+                        stylesheets.
+                    </P>
+                    <DIV id="selector">
+                        <LABEL class="selector" for="stylesheet_selector">Style selector:</LABEL>
+                        <SELECT class="stylesheet-selector" name="Stylesheet Selector" size="5" id="stylesheet_selector"> <!-- onchange="setActiveStyleSheet(this.options[this.options.selectedIndex].value);"> -->
+                            <option value="Basic">Basic</OPTION>
+                            <option value="Basic+Wikipedia">Basic+Wikipedia</OPTION>
+                            <OPTION value="None">None</OPTION>
+                        </SELECT>
+                        <BUTTON class="button-stylesheet" type="button" onclick="setActiveStyleSheet(document.getElementById('stylesheet_selector').value);">Change</BUTTON>
+                    </DIV>
                 </DIV>
-
+                <HR class="invisible">
             </DIV>
 
             <DIV id="header">
@@ -92,12 +103,12 @@
                         </DIV>
                         <DIV class="link-explanation">
                             <P class="body">
-                                <Q><B>Open Source Initiative (OSI)</B> is a non-profit
+                                <Q><STRONG>Open Source Initiative (OSI)</STRONG> is a non-profit
                                 corporation dedicated to managing and promoting the
                                 Open Source Definition for the good of the community,
                                 specifically through the OSI Certified Open Source
                                 Software certification mark and program.</Q><BR><BR>
-                                Since <I>Rise of the Legend</I> is distributed under
+                                Since <EM>Rise of the Legend</EM> is distributed under
                                 the <SPAN class="wikipedia"><ACRONYM title="GNU's Not Unix">GNU</ACRONYM></SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/GNU"><SUP title="What is this?">[7]</SUP></A> <SPAN class="wikipedia"><ACRONYM title="GNU General Public License">GPL</ACRONYM></SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/GPL"><SUP title="What is this?">[8]</SUP></A>, it is automatically
                                 considered to be <SPAN class="wikipedia">Open Source</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Open_Source"><SUP title="What is this?">[9]</SUP></A> Certified.<BR><BR>
                                 Clicking on the <SPAN class="wikipedia">icon</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Icon_%28computing%29"><SUP title="What is this?">[4]</SUP></A> will take you to the <SPAN class="wikipedia"><ACRONYM title="Open Source Initiative">OSI</ACRONYM></SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Open_Source_Initiative"><SUP title="What is this?">[10]</SUP></A>
@@ -206,8 +217,8 @@
                         <DIV class="link-explanation">
                             <P class="body">
                                 <Q>Allegro is a game programming library for C/C++ developers distributed freely, supporting
-                                the following platforms: <B>DOS</B>, <B>Unix</B> (Linux, FreeBSD, Irix, Solaris, Darwin),
-                                <B>Windows</B>, <B>QNX</B>, <B>BeOS</B> and <B>MacOS X</B>. It provides many functions for
+                                the following platforms: <STRONG>DOS</STRONG>, <STRONG>Unix</STRONG> (Linux, FreeBSD, Irix, Solaris, Darwin),
+                                <STRONG>Windows</STRONG>, <STRONG>QNX</STRONG>, <STRONG>BeOS</STRONG> and <STRONG>MacOS X</STRONG>. It provides many functions for
                                 graphics, sounds, player input (keyboard, mouse and joystick) and timers. It also provides
                                 fixed and floating point mathematical functions, 3d functions, file management functions,
                                 compressed datafile and a GUI.</Q><BR><BR>
@@ -216,7 +227,7 @@
                             </P>
                         </DIV>
                     </div>
-
+                    <HR class="invisible">
                 </div>
             </div>
 

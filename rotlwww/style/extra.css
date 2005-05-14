@@ -1,3 +1,4 @@
+
 body {
     background-color: #3885CA;
 }
@@ -57,16 +58,7 @@ h2.title {
     font-size: 12pt;
     font-weight: none;
     font-style: italic;
-    font-family: monospace;
-}
-
-a.navigator {
-    display: table;
-
-    text-align: left;
-    font-size: medium;
-    font-style: italic;
-    font-family: monospace;
+    font-family: "Courier New", monospace;
 }
 
 h2.version {
@@ -75,31 +67,18 @@ h2.version {
     text-align: right;
     font-size: 12pt;
     font-style: italic;
-    font-family: monospace;
+    font-family: "Courier New", monospace;
 }
 
 p.body {
     text-align: justify;
 
-    font-family: monospace;
+    font-family: "Courier New", monospace;
     font-size: 8pt;
 }
 
 div.justified {
     text-align: justify;
-}
-
-div.navigator {
-	float: left;
-	position: fixed;
-
-    left: 1.5%;
-    width: 20.5%;
-    height: 96%;
-    min-width: 10%;
-
-    background-color: #FFFFFF;
-    border: dotted 1px #000000;
 }
 
 hr.title {
@@ -118,23 +97,4 @@ a span {
     text-decoration: none;
 }
 
-a:hover {
-	background-color: #B2DAFF;
-}
-
-a:hover span {
-	position: relative;
-	display: block;
-
-	top: 10px;
-	left: 30px;
-	padding-left: 1%;
-	padding-right: 1%;
-	width: 75%;
-
-	background-color: #B2DAFF;
-	border-right: 1px solid #000000;
-	border-bottom: 1px solid #000000;
-	color: #000000;
-	text-decoration: none;
-}
+@import url(extra_navigator.css);

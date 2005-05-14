@@ -9,6 +9,7 @@ div.navigator {
     position: fixed;
     float: left;
 
+    margin-top: 1%;
     padding: 1%;
     top: 1%;
     left: 1%;
@@ -25,7 +26,7 @@ a.navigator {
     text-decoration: none;
     font-size: medium;
     font-style: italic;
-    font-family: monospace;
+    font-family: "Courier New", monospace;
     color: #3885CA;
 
     margin-top: 10%;

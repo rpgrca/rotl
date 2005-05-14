@@ -6,6 +6,7 @@
  */
 
 
+//<![CDATA[
 /*  NAME   : setActiveStyleSheet                                 {{{1
  */
 function setActiveStyleSheet(title) {
@@ -109,7 +110,7 @@ setActiveStyleSheet(title);
 
 
 /* }}} */
-
+////]]>
 
 /*  VIM modelines and signature                                  {{{1
     _____________________________________________________________________

@@ -1,0 +1,50 @@
+a.navigator {
+    display: none;
+/*
+    display: table;
+    text-align: left;
+    font-size: medium;
+    font-style: italic;
+    font-family: "Courier New", monospace;
+*/
+}
+
+div.navigator {
+    display: none;
+/*
+	float: left;
+
+    left: 1.5%;
+    width: 20.5%;
+    height: 96%;
+
+    background-color: #FFFFFF;
+    border: dotted 1px #000000;
+*/
+}
+
+/*
+a.navigator:hover {
+background-color: #B2DAFF;
+}
+
+a:hover span {
+	position: relative;
+	display: block;
+
+	top: 10px;
+	left: 30px;
+	padding-left: 1%;
+	padding-right: 1%;
+	width: 75%;
+
+	background-color: #B2DAFF;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	color: #000000;
+	text-decoration: none;
+}
+*/
+
+
+
