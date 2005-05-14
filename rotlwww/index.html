@@ -35,12 +35,12 @@
                     </P>
                     <DIV id="selector">
                         <LABEL class="selector" for="stylesheet_selector">Style selector:</LABEL>
-                        <SELECT class="stylesheet-selector" name="Stylesheet Selector" size="5" id="stylesheet_selector"> <!-- onchange="setActiveStyleSheet(this.options[this.options.selectedIndex].value);"> -->
+                        <SELECT class="stylesheet-selector" name="Stylesheet Selector" size="5" id="stylesheet_selector">
                             <option value="Basic">Basic</OPTION>
                             <option value="Basic+Wikipedia">Basic+Wikipedia</OPTION>
                             <OPTION value="None">None</OPTION>
                         </SELECT>
-                        <BUTTON class="button-stylesheet" type="button" onclick="setActiveStyleSheet(document.getElementById('stylesheet_selector').value);">Change</BUTTON>
+                        <BUTTON class="button-stylesheet" type="button" onkeypress="setActiveStyleSheet(document.getElementById('stylesheet_selector').value);" onclick="setActiveStyleSheet(document.getElementById('stylesheet_selector').value);">Change</BUTTON>
                     </DIV>
                 </DIV>
                 <HR class="invisible">
