@@ -10,16 +10,17 @@ h3.news-date {
     list-style-position: inside;
 
     font-weight: normal;
+    font-size: 12pt;
     font-family: "Courier New", monospace;
 }
 
-div.news-item {
-    display: list-item;
-    list-style: circle;
-    list-style-position: inside;
+ul.news-list {
+    /*  Nothing  */
+}
 
-    margin-bottom: 1%;
-    padding-left: 5%;
+li.news-item {
+    list-style: circle;
+
     font-size: 8pt;
     font-family: "Courier New", monospace;
 }
