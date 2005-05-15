@@ -4,7 +4,10 @@
     <head>
         <meta content="text/html; charset=us-ascii" http-equiv="content-type">
         <META http-equiv="Content-Script-Type" content="text/javascript">
-        <title>Links</title>
+        <META name="Author" lang="es" content="ReyBrujo">
+        <META name="keywords" lang="en" content="strategy, game, rise of the legend, allegro, uml, open source, classbuilder, pattern designs, rise of the phoenix, kouryuuki, rotl, framework, tile based">
+        <META name="description" lang="en" content="Rise of the Legend, a framework for building strategic games">
+        <title>Rise of the Legend - Links Section</title>
         <link rel="stylesheet" type="text/css" href="style/basic.css" title="Basic">
         <link rel="stylesheet" type="text/css" href="style/basic_links.css" title="Basic">
         <link rel="alternate stylesheet" href="style/wikipedia.css" title="Basic+Wikipedia" type="text/css">
@@ -36,13 +39,13 @@
                         stylesheets.
                     </P>
                     <DIV id="selector">
-                        <LABEL class="selector" for="stylesheet_selector">Style selector:</LABEL>
-                        <SELECT class="stylesheet-selector" name="Stylesheet Selector" size="5" id="stylesheet_selector"> <!-- onchange="setActiveStyleSheet(this.options[this.options.selectedIndex].value);"> -->
-                            <option value="Basic">Basic</OPTION>
+                        <LABEL accesskey="s" class="selector" for="stylesheet_selector">Style selector:</LABEL>
+                        <SELECT class="stylesheet-selector" name="Stylesheet Selector" size="5" id="stylesheet_selector">
+                            <option value="Basic" selected>Basic</OPTION>
                             <option value="Basic+Wikipedia">Basic+Wikipedia</OPTION>
                             <OPTION value="None">None</OPTION>
                         </SELECT>
-                        <BUTTON class="button-stylesheet" type="button" onclick="setActiveStyleSheet(document.getElementById('stylesheet_selector').value);">Change</BUTTON>
+                        <BUTTON accesskey="c" class="button-stylesheet" type="button" onkeypress="setActiveStyleSheet(document.getElementById('stylesheet_selector').value);" onclick="setActiveStyleSheet(document.getElementById('stylesheet_selector').value);">Change</BUTTON>
                     </DIV>
                 </DIV>
                 <HR class="invisible">
@@ -58,7 +61,7 @@
                 <DIV class="justified">
                     <DIV class="link">
                         <DIV class="link-logo">
-                            <A hreflang="en" href="http://validator.w3.org/check/referer"><IMG src="http://www.w3.org/Icons/valid-html40" longdesc="valid-html40.html" alt="Valid HTML 4.0 Logo" title="Valid HTML 4.0!" height="31" width="88"></A>
+                            <A hreflang="en" href="http://validator.w3.org/check/referer"><IMG src="http://www.w3.org/Icons/valid-html40" alt="Valid HTML 4.0 Logo" title="Valid HTML 4.0!" height="31" width="88"></A>
                         </DIV>
                         <DIV class="link-link">
                             <P class="body">
@@ -67,16 +70,16 @@
                         </DIV>
                         <DIV class="link-explanation">
                             <P class="body">
-                                This <SPAN class="wikipedia">site</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Website"><SUP title="What is this?">[1]</SUP></A> was built according to rules set in the <SPAN class="wikipedia"><ACRONYM title="HyperText Markup Language">HTML</ACRONYM></SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/HTML"><SUP title="What is this?">[2]</SUP></A> 4.01 Specification.
-                                Every <SPAN class="wikipedia">page</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Webpage"><SUP title="What is this?">[3]</SUP></A> sporting this <SPAN class="wikipedia">icon</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Icon_%28computing%29"><SUP title="What is this?">[4]</SUP></A> has been written following the standards, and should be viewable in any <SPAN class="wikipedia">browser</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Web_browser"><SUP title="What is this?">[5]</SUP></A> supporting <SPAN class="wikipedia"><ACRONYM title="HyperText Markup Language">HTML</ACRONYM></SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/HTML"><SUP title="What is this?">[2]</SUP></A> 4.01 Specification.<BR><BR>
-                                Clicking on the <SPAN class="wikipedia">icon</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Icon_%28computing%29"><SUP title="What is this?">[4]</SUP></A> will re-validate the current <SPAN class="wikipedia">page</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Webpage"><SUP title="What is this?">[3]</SUP></A>.
+                                This <SPAN class="wikipedia">site</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Website" title="What is a site?"><SUP>[1]</SUP></A> was built according to rules set in the <SPAN class="wikipedia"><ACRONYM title="HyperText Markup Language">HTML</ACRONYM></SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/HTML" title="What is HTML?"><SUP>[2]</SUP></A> 4.01 Specification.
+                                Every <SPAN class="wikipedia">page</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Webpage" title="What is a page?"><SUP>[3]</SUP></A> sporting this <SPAN class="wikipedia">icon</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Icon_%28computing%29" title="What is an icon?"><SUP>[4]</SUP></A> has been written following the standards, and should be viewable in any <SPAN class="wikipedia">browser</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Web_browser" title="What is a browser?"><SUP>[5]</SUP></A> supporting <SPAN class="wikipedia"><ACRONYM title="HyperText Markup Language">HTML</ACRONYM></SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/HTML" title="What is HTML?"><SUP>[2]</SUP></A> 4.01 Specification.<BR><BR>
+                                Clicking on the <SPAN class="wikipedia">icon</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Icon_%28computing%29" title="What is an icon?"><SUP>[4]</SUP></A> will re-validate the current <SPAN class="wikipedia">page</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Webpage" title="What is a page?"><SUP>[3]</SUP></A>.
                             </P>
                         </DIV>
                     </DIV>
                     <HR class="invisible">
                     <DIV class="link">
                         <DIV class="link-logo">
-                            <A hreflang="en" href="http://jigsaw.w3.org/css-validator/check/referer" shape="rect"><img src="http://www.w3.org/Icons/valid-css" longdesc="valid-css.html" alt="Valid CSS Logo" title="Valid CSS!" height="31" width="88"></a>
+                            <A hreflang="en" href="http://jigsaw.w3.org/css-validator/check/referer" shape="rect"><img src="http://www.w3.org/Icons/valid-css" alt="Valid CSS Logo" title="Valid CSS!" height="31" width="88"></a>
                         </DIV>
                         <DIV class="link-link">
                             <P class="body">
@@ -85,9 +88,9 @@
                         </DIV>
                         <DIV class="link-explanation">
                             <P class="body">
-                                This <SPAN class="wikipedia">site</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Website"><SUP title="What is this?">[1]</SUP></A> was built according to rules set in the <SPAN class="wikipedia"><Acronym title="Cascading Style Sheets">CSS</ACRONYM></SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets"><SUP title="What is this?">[6]</SUP></A> 2.1 Specification.
-                                Every <SPAN class="wikipedia">page</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Webpage"><SUP title="What is this?">[3]</SUP></A> sporting this <SPAN class="wikipedia">icon</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Icon_%28computing%29"><SUP title="What is this?">[4]</SUP></A> has been written following the standards, and should be viewable in any <SPAN class="wikipedia">browser</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Web_browser"><SUP title="What is this?">[5]</SUP></A> supporting <SPAN class="wikipedia"><ACRONYM title="Cascading Style Sheets">CSS</ACRONYM></SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets"><SUP title="What is this?">[6]</SUP></A> 2.1 Specification.<BR><BR>
-                                Clicking on the <SPAN class="wikipedia">icon</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Icon_%28computing%29"><SUP title="What is this?">[4]</SUP></A> will re-validate the current <SPAN class="wikipedia">page</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Webpage"><SUP title="What is this?">[3]</SUP></A>.
+                                This <SPAN class="wikipedia">site</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Website" title="What is a site?"><SUP>[1]</SUP></A> was built according to rules set in the <SPAN class="wikipedia"><Acronym title="Cascading Style Sheets">CSS</ACRONYM></SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets" title="What is CSS?"><SUP>[6]</SUP></A> 2.1 Specification.
+                                Every <SPAN class="wikipedia">page</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Webpage" title="What is a page?"><SUP>[3]</SUP></A> sporting this <SPAN class="wikipedia">icon</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Icon_%28computing%29" title="What is an icon?"><SUP>[4]</SUP></A> has been written following the standards, and should be viewable in any <SPAN class="wikipedia">browser</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Web_browser" title="What is a browser?"><SUP>[5]</SUP></A> supporting <SPAN class="wikipedia"><ACRONYM title="Cascading Style Sheets">CSS</ACRONYM></SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets" title="What is CSS?"><SUP>[6]</SUP></A> 2.1 Specification.<BR><BR>
+                                Clicking on the <SPAN class="wikipedia">icon</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Icon_%28computing%29" title="What is an icon?"><SUP>[4]</SUP></A> will re-validate the current <SPAN class="wikipedia">page</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Webpage" title="What is a page?"><SUP>[3]</SUP></A>.
                             </P>
                         </DiV>
                     </DIV>
@@ -109,17 +112,17 @@
                                 specifically through the OSI Certified Open Source
                                 Software certification mark and program.</Q><BR><BR>
                                 Since <EM>Rise of the Legend</EM> is distributed under
-                                the <SPAN class="wikipedia"><ACRONYM title="GNU's Not Unix">GNU</ACRONYM></SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/GNU"><SUP title="What is this?">[7]</SUP></A> <SPAN class="wikipedia"><ACRONYM title="GNU General Public License">GPL</ACRONYM></SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/GPL"><SUP title="What is this?">[8]</SUP></A>, it is automatically
-                                considered to be <SPAN class="wikipedia">Open Source</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Open_Source"><SUP title="What is this?">[9]</SUP></A> Certified.<BR><BR>
-                                Clicking on the <SPAN class="wikipedia">icon</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Icon_%28computing%29"><SUP title="What is this?">[4]</SUP></A> will take you to the <SPAN class="wikipedia"><ACRONYM title="Open Source Initiative">OSI</ACRONYM></SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Open_Source_Initiative"><SUP title="What is this?">[10]</SUP></A>
-                                <SPAN class="wikipedia">page</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Webpage"><SUP title="What is this?">[3]</SUP></A> with the definition of <SPAN class="wikipedia">Open Source</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Open_Source"><SUP title="What is this?">[9]</SUP></A>.
+                                the <SPAN class="wikipedia"><ACRONYM title="GNU's Not Unix">GNU</ACRONYM></SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/GNU" title="What is GNU?"><SUP>[7]</SUP></A> <SPAN class="wikipedia"><ACRONYM title="GNU General Public License">GPL</ACRONYM></SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/GPL" title="What is GPL?"><SUP>[8]</SUP></A>, it is automatically
+                                considered to be <SPAN class="wikipedia">Open Source</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Open_Source" title="What is open source?"><SUP>[9]</SUP></A> Certified.<BR><BR>
+                                Clicking on the <SPAN class="wikipedia">icon</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Icon_%28computing%29" title="What is an icon?"><SUP>[4]</SUP></A> will take you to the <SPAN class="wikipedia"><ACRONYM title="Open Source Initiative">OSI</ACRONYM></SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Open_Source_Initiative" title="What is OSI?"><SUP>[10]</SUP></A>
+                                <SPAN class="wikipedia">page</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Webpage" title="What is a page?"><SUP>[3]</SUP></A> with the definition of <SPAN class="wikipedia">Open Source</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Open_Source" title="What is open source?"><SUP>[9]</SUP></A>.
                             </P>
                         </DIV>
                     </div>
                     <HR class="invisible">
                     <DIV class="link">
                         <DIV class="link-logo">
-                            <A hreflang="en" href="http://www.vim.org"><IMG src="images/vim_created.png" alt="Vim.org Logo" longdesc="vim-logo.html" title="Created with Vim"></A>
+                            <A hreflang="en" href="http://www.vim.org"><IMG src="images/vim_created.png" alt="Vim.org Logo" title="Created with Vim"></A>
                         </DIV>
                         <DIV class="link-link">
                             <P class="body">
@@ -128,7 +131,7 @@
                         </DIV>
                         <DIV class="link-explanation">
                             <P class="body">
-                                The <SPAN class="wikipedia">code</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Code_%28computer_programming%29"><SUP title="What is this?">[11]</SUP></A> was written using <SPAN class="wikipedia"><ACRONYM title="Vi Improved">Vim</ACRONYM></SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Vim_%28text_editor%29"><SUP title="What is this?">[12]</SUP></A>,
+                                The <SPAN class="wikipedia">code</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Code_%28computer_programming%29" title="What is the code?"><SUP>[11]</SUP></A> was written using <SPAN class="wikipedia"><ACRONYM title="Vi Improved">Vim</ACRONYM></SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Vim_%28text_editor%29" title="What is Vim?"><SUP>[12]</SUP></A>,
                                 <Q cite="http://www.vim.org/about.php">a highly
                                     configurable text editor built to enable
                                     efficient text editing. It is an improved
@@ -138,15 +141,15 @@
                                     addition to your life please consider
                                     helping needy children in Uganda.
                                 </Q><BR><BR>
-                                Clicking on the <SPAN class="wikipedia">icon</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Icon_%28computing%29"><SUP title="What is this?">[4]</SUP></A> will take you to the <SPAN class="wikipedia"><ACRONYM title="Vi Improved">Vim</ACRONYM></SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Vim_%28text_editor%29"><SUP title="What is this?">[12]</SUP></A>
-                                home <SPAN class="wikipedia">page</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Webpage"><SUP title="What is this?">[3]</SUP></A>.
+                                Clicking on the <SPAN class="wikipedia">icon</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Icon_%28computing%29" title="What is an icon?"><SUP>[4]</SUP></A> will take you to the <SPAN class="wikipedia"><ACRONYM title="Vi Improved">Vim</ACRONYM></SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Vim_%28text_editor%29" title="What is Vim?"><SUP>[12]</SUP></A>
+                                home <SPAN class="wikipedia">page</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Webpage" title="What is a page?"><SUP>[3]</SUP></A>.
                             </P>
                         </DIV>
                     </div>
                     <HR class="invisible">
                     <DIV class="link">
                         <DIV class="link-logo">
-                            <A hreflang="en" href="http://sourceforge.net"><IMG src="http://sourceforge.net/sflogo.php?group_id=137917&amp;type=1" longdesc="SourceForge-logo.html" alt="SourceForge.net Logo" title="Hosted by SourceForge.net" width="88" height="31"></A>
+                            <A hreflang="en" href="http://sourceforge.net"><IMG src="http://sourceforge.net/sflogo.php?group_id=137917&amp;type=1" alt="SourceForge.net Logo" title="Hosted by SourceForge.net" width="88" height="31"></A>
                         </DIV>
                         <DIV class="link-link">
                             <P class="body">
@@ -155,22 +158,22 @@
                         </DIV>
                         <DIV class="link-explanation">
                             <P class="body">
-                                The <SPAN class="wikipedia">hosting</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Web_hosting"><SUP title="What is this?">[13]</SUP></A> of this <SPAN class="wikipedia">site</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Website"><SUP title="What is this?">[1]</SUP></A> and the project itself
-                                is supported by <SPAN class="wikipedia">SourceForge</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/SourceForge"><SUP title="What is this?">[14]</SUP></A>, the <Q cite="http://sourceforge.net/index.php">world's
+                                The <SPAN class="wikipedia">hosting</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Web_hosting" title="What is hosting?"><SUP>[13]</SUP></A> of this <SPAN class="wikipedia">site</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Website" title="What is a site?"><SUP>[1]</SUP></A> and the project itself
+                                is supported by <SPAN class="wikipedia">SourceForge</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/SourceForge" title="What is SourceForge?"><SUP>[14]</SUP></A>, the <Q cite="http://sourceforge.net/index.php">world's
                                 largest Open Source software development website,
                                 with the largest repository of Open Source code
                                 and applications available on the Internet.
                                 SourceForge.net provides free services to Open
                                 Source developers.</Q><BR><BR>
-                                Clicking on the <SPAN class="wikipedia">icon</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Icon_%28computing%29"><SUP title="What is this?">[4]</SUP></A> will take you to <SPAN class="wikipedia">SourceForge</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/SourceForge"><SUP title="What is this?">[14]</SUP></A>
-                                home <SPAN class="wikipedia">page</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Webpage"><SUP title="What is this?">[3]</SUP></A>.
+                                Clicking on the <SPAN class="wikipedia">icon</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Icon_%28computing%29" title="What is an icon?"><SUP>[4]</SUP></A> will take you to <SPAN class="wikipedia">SourceForge</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/SourceForge" title="What is SourceForge?"><SUP>[14]</SUP></A>
+                                home <SPAN class="wikipedia">page</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Webpage" title="What is a page?"><SUP>[3]</SUP></A>.
                             </P>
                         </DIV>
                     </div>
                     <HR class="invisible">
                     <DIV class="link">
                         <DIV class="link-logo">
-                            <A hreflang="en" href="http://www.anybrowser.org/campaign/index.html"><IMG src="images/w3c_ab.png" longdesc="AnyBrowser-logo.html" alt="AnyBrowser Campaign Logo" title="Viewed with Any Browser" width="88" height="31"></A>
+                            <A hreflang="en" href="http://www.anybrowser.org/campaign/index.html"><IMG src="images/w3c_ab.png" alt="AnyBrowser Campaign Logo" title="Viewed with Any Browser" width="88" height="31"></A>
                         </DIV>
                         <DIV class="link-link">
                             <P class="body">
@@ -179,9 +182,10 @@
                         </DIV>
                         <DIV class="link-explanation">
                             <P class="body">
-                                The <SPAN class="wikipedia">AnyBrowser</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Viewable_With_Any_Browser"><SUP title="What is this?">[15]</SUP></A> campaign is a community effort to encourage <SPAN class="wikipedia">web</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/World_Wide_Web"><SUP title="What is this?">[16]</SUP></A> developers to create <SPAN class="wikipedia">sites</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Website"><SUP title="What is this?">[1]</SUP></A> that are interoperable with any <SPAN class="wikipedia">browser</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Web_browser"><SUP title="What is this?">[5]</SUP></A>.<BR><BR>
-                                Clicking on the <SPAN class="wikipedia">icon</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Icon_%28computing%29"><SUP title="What is this?">[4]</SUP></A> will take you to the <SPAN class="wikipedia">AnyBrowser Campaign</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Viewable_With_Any_Browser"><SUP title="What is this?">[5]</SUP></A>
-                                home <SPAN class="wikipedia">page</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Webpage"><SUP title="What is this?">[3]</SUP></A>.
+                                The <SPAN class="wikipedia">AnyBrowser</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Viewable_With_Any_Browser" title="What is AnyBrowser?"><SUP>[15]</SUP></A> campaign is a community effort to encourage <SPAN class="wikipedia">web</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/World_Wide_Web" title="What is the web?"><SUP>[16]</SUP></A>
+                                developers to create <SPAN class="wikipedia">sites</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Website" title="What is a site?"><SUP>[1]</SUP></A> that are interoperable with any <SPAN class="wikipedia">browser</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Web_browser" title="What is a browser?"><SUP>[5]</SUP></A>.<BR><BR>
+                                Clicking on the <SPAN class="wikipedia">icon</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Icon_%28computing%29" title="What is an icon?"><SUP>[4]</SUP></A> will take you to the <SPAN class="wikipedia">AnyBrowser Campaign</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Viewable_With_Any_Browser" title="What is AnyBrowser?"><SUP>[5]</SUP></A>
+                                home <SPAN class="wikipedia">page</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Webpage" title="What is a page?"><SUP>[3]</SUP></A>.
                             </P>
                         </DIV>
                     </div>
@@ -197,12 +201,12 @@
                         </DIV>
                         <DIV class="link-explanation">
                             <P class="body">
-                                <SPAN class="wikipedia">Mozilla Firefox</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Firefox"><SUP title="What is this?">[17]</SUP></A> is the next generation <SPAN class="wikipedia">browser</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Web_browser"><SUP title="What is this?">[5]</SUP></A> from
-                                the <SPAN class="wikipedia">Mozilla Foundation</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Mozilla_Foundation"><SUP title="What is this?">[18]</SUP></A>. It is newer and actively updated, supports a wide range of the <SPAN class="wikipedia">web
-                                standards</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Web_standards"><SUP title="What is this?">[19]</SUP></A>, and is <SPAN class="wikipedia">free</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Free_software"><SUP title="What is this?">[20]</SUP></A>.<BR><BR>
+                                <SPAN class="wikipedia">Mozilla Firefox</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Firefox" title="What is Firefox?"><SUP>[17]</SUP></A> is the next generation <SPAN class="wikipedia">browser</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Web_browser" title="What is a browser?"><SUP>[5]</SUP></A> from
+                                the <SPAN class="wikipedia">Mozilla Foundation</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Mozilla_Foundation" title="What is the Mozilla Foundation?"><SUP>[18]</SUP></A>. It is newer and actively updated, supports a wide range of the <SPAN class="wikipedia">web
+                                standards</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Web_standards" title="What are the standards?"><SUP>[19]</SUP></A>, and is <SPAN class="wikipedia">free</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Free_software" title="What is free as in freedom?"><SUP>[20]</SUP></A>.<BR><BR>
 
-                                Clicking on the <SPAN class="wikipedia">icon</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Icon_%28computing%29"><SUP title="What is this?">[4]</SUP></A> will take you to the <SPAN class="wikipedia">Mozilla Firefox</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Firefox"><SUP title="What is this?">[17]</SUP></A>
-                                home <SPAN class="wikipedia">page</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Webpage"><SUP title="What is this?">[3]</SUP></A> using my referral.
+                                Clicking on the <SPAN class="wikipedia">icon</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Icon_%28computing%29" title="What is an icon?"><SUP>[4]</SUP></A> will take you to the <SPAN class="wikipedia">Mozilla Firefox</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Firefox" title="What is Firefox?"><SUP>[17]</SUP></A>
+                                home <SPAN class="wikipedia">page</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Webpage" title="What is a page?"><SUP>[3]</SUP></A> using my referral.
                             </P>
                         </DIV>
                     </div>
@@ -224,8 +228,8 @@
                                 graphics, sounds, player input (keyboard, mouse and joystick) and timers. It also provides
                                 fixed and floating point mathematical functions, 3d functions, file management functions,
                                 compressed datafile and a GUI.</Q><BR><BR>
-                                Clicking on the <SPAN class="wikipedia">icon</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Icon_%28computing%29"><SUP title="What is this?">[4]</SUP></A> will take you to the <SPAN class="wikipedia">Allegro</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Allegro_library"><SUP title="What is this?">[21]</SUP></A>
-                                home <SPAN class="wikipedia">page</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Webpage"><SUP title="What is this?">[3]</SUP></A>.
+                                Clicking on the <SPAN class="wikipedia">icon</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Icon_%28computing%29" title="What is an icon?"><SUP>[4]</SUP></A> will take you to the <SPAN class="wikipedia">Allegro</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Allegro_library" title="What is Allegro?"><SUP>[21]</SUP></A>
+                                home <SPAN class="wikipedia">page</SPAN><A class="wikipedia" hreflang="en" href="http://en.wikipedia.org/wiki/Webpage" title="What is a page?"><SUP>[3]</SUP></A>.
                             </P>
                         </DIV>
                     </div>
@@ -236,14 +240,23 @@
             <DIV class="bottom">
                 <DIV>
                     <DIV class="bottom_left">
-                        <A hreflang="en" href="http://validator.w3.org/check/referer" shape="rect"><IMG src="http://www.w3.org/Icons/valid-html40" longdesc="valid-html40.html" alt="Valid HTML 4.0!" title="Valid HTML 4.0!" height="31" width="88"></A>
+                        <SPAN class="invisible">[</SPAN><A hreflang="en" href="http://validator.w3.org/check/referer" shape="rect"><IMG src="http://www.w3.org/Icons/valid-html40" alt="Valid HTML 4.0!" title="Valid HTML 4.0!" height="31" width="88"></A><SPAN class="invisible">]</SPAN>
+                    </DIV>
+                    <DIV class="bottom_left">
+                        <SPAN class="invisible">[</SPAN><A hreflang="en" href="http://jigsaw.w3.org/css-validator/check/referer" shape="rect"><img src="http://www.w3.org/Icons/valid-css" alt="Valid CSS!" title="Valid CSS!" height="31" width="88"></a><SPAN class="invisible">]</SPAN>
                     </DIV>
                     <DIV class="bottom_right">
-                        <A hreflang="en" href="http://sourceforge.net"><IMG src="http://sourceforge.net/sflogo.php?group_id=137917&amp;type=1" longdesc="SourceForge-logo.html" alt="SourceForge.net Logo" title="Hosted by SourceForge.net" width="88" height="31"></A>
+                        <SPAN class="invisible">[</SPAN><A hreflang="en" href="http://sourceforge.net"><IMG src="http://sourceforge.net/sflogo.php?group_id=137917&amp;type=1" alt="SourceForge.net Logo" title="Hosted by SourceForge.net" width="88" height="31"></A><SPAN class="invisible">]</SPAN>
                     </DIV>
-                    <A hreflang="en" href="http://jigsaw.w3.org/css-validator/check/referer" shape="rect"><img src="http://www.w3.org/Icons/valid-css" longdesc="valid-css.html" alt="Valid CSS!" title="Valid CSS!" height="31" width="88"></a>
+                    <SPAN class="invisible">[</SPAN><a href="http://www.w3.org/WAI/WCAG1AA-Conformance" title="Explanation of Level Double-A Conformance"><img height="32" width="88" alt="Level Double-A conformance icon" src="http://www.w3.org/WAI/wcag1AA"></a><SPAN class="invisible">]</SPAN>
                 </DIV>
             </DIV>
+        </DIV>
+        <DIV>
+            <!--  TODO: Remove this, it is not necessary anymore  -->
+            <BR class="invisible">
+            <BR class="invisible">
+            <ADDRESS class="invisible">reybrujo at gmail dot com</ADDRESS>
         </DIV>
     </body>
 </html>
