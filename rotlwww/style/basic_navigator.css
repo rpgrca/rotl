@@ -9,13 +9,11 @@ div.navigator {
     position: fixed;
     float: left;
 
-    margin-top: 1%;
     padding: 1%;
-    top: 1%;
     left: 1%;
     width: 15%;
-
-    min-height: 83%;
+    height: 93%;
+    min-height: 50%;
 
     background-color: #FFFFFF;
     border: 1px dotted #000000;

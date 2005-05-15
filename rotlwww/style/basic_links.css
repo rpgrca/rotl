@@ -25,7 +25,7 @@ div.link-link {
 }
 
 div.link-explanation {
-    clear: left;
+    clear: both;
 }
 
 a img {

@@ -10,7 +10,7 @@ html, body {
     color: #000000;
 }
 
-acronym {
+acronym, abbr {
     font-style: italic;
     color: #7EB6E1;
     cursor: help;
