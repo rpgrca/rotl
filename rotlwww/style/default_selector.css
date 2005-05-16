@@ -1,0 +1,32 @@
+/*
+ *  Stylesheet for the stylesheet selector.
+ *
+ *  ReyBrujo, 2005
+ */
+
+@import url(common_selector.css);
+
+div.stylesheet-selector {
+    position: absolute;
+
+    top: 27em;
+    left: 1em;
+    width: 8em;
+    text-align: center;
+
+    background-color: #BBDDCC;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+label.selector {
+    /*  inherits from the base  */
+    color: #000000;
+}
+
+
+/*
+ * vim:tw=78:ts=4:et
+ */

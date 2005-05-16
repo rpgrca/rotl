@@ -1,0 +1,36 @@
+/*
+ *  Basic stylesheet (working on Internet Explorer).
+ *
+ *  ReyBrujo, 2005
+ */
+
+@import url(default_header.css);
+@import url(default_navigator.css);
+@import url(default_selector.css);
+@import url(default_body.css);
+@import url(default_bottom.css);
+@import url(default_misc.css);
+
+/*
+p.body {
+    text-align: justify;
+
+    font-family: "Courier New", monospace;
+    font-size: 8pt;
+}
+
+span.question {
+	font-style: italic;
+	font-weight: bold;
+	display: box;
+}
+
+a span {
+    display: none;
+    text-decoration: none;
+}*/
+
+
+/*
+ * vim:tw=78:ts=4:et
+ */

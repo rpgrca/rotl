@@ -5,70 +5,25 @@
  */
 
 
+@import url(common_misc.css);
+
+
 html, body {
     background-color: #3885CA;
     color: #000000;
 }
 
 acronym, abbr {
-    font-style: italic;
+    /*  inherits from the base  */
     color: #7EB6E1;
-    cursor: help;
-}
-
-h2.title {
-    position: relative;
-    float: left;
-    display: inline;
-
-    text-align: left;
-    font-size: 12pt;
-    font-weight: normal;
-    font-style: italic;
-    font-family: "Courier New", monospace;
-}
-
-a.wikipedia {
-    display: none;
-    text-decoration: none;
-}
-
-a img {
-    color: #FFFFFF;
-}
-
-h2.version {
-    float: right;
-
-    text-align: right;
-	font-weight: normal;
-    font-size: 12pt;
-    font-style: italic;
-    font-family: "Courier New", monospace;
-}
-
-div.justified {
-    text-align: justify;
 }
 
 hr.title {
-    clear: both;
+    /*  inherits from the base  */
     color: #3885CA;
+    background-color: #3885CA;
 }
 
-
-/*
-    a span {
-        display: none;
-        text-decoration: none;
-    }
-*/
-
-/*
-a:hover {
-	background-color: #B2DAFF;
-}
-*/
 a:hover img {
     background-color: #FFFFFF;
 }
@@ -88,13 +43,8 @@ a:hover span {
 	color: #000000;
 }
 
-span.tooltip {
-	display: none;
-	text-decoration: none;
-}
-
-.invisible {
-    display: none;
+a img {
+    background-color: #FFFFFF;
 }
 
 

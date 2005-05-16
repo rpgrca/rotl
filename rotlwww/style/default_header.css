@@ -1,0 +1,31 @@
+/*
+ *  Stylesheet for the header.
+ *
+ *  ReyBrujo, 2005
+ */
+
+
+h1.header {
+    float: right;
+    position: absolute;
+
+    text-align: center;
+    text-decoration: none;
+    font-family: "Courier New", monospace;
+    font-size: 24pt;
+
+    margin-top: 0em;
+    margin-left: 0em;
+    top: 0.5em;
+    left: 6em;
+    padding: 0.5em;
+    width: 16.25em;
+
+    background-color: #BBDDCC;
+    border: 1px solid #000000;
+}
+
+
+/*
+ * vim:tw=78:ts=4:et
+ */

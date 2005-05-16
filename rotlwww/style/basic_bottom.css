@@ -27,6 +27,9 @@ div.bottom_right {
     float: right;
 }
 
+div.bottom_center {
+    /*  nothing  */
+}
 
 /*
  * vim:tw=78:ts=4:et

@@ -1,0 +1,52 @@
+/*
+ *  Stylesheet for the navigation bar (working on Internet Explorer).
+ *
+ *  ReyBrujo, 2005
+ */
+
+
+div.navigator {
+    position: absolute;
+    float: left;
+
+    top: 1em;
+    margin-top: 0em;
+    padding-top: 1em;
+    height: 35em;
+    width: 10em;
+    border: 1px solid #000000;
+    background-color: #BBDDCC;
+}
+
+a.navigator {
+    display: block;
+
+    color: #000000;
+
+    width: 8em;
+    margin-top: 0;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+
+    text-align: center;
+    text-decoration: none;
+    font-size: medium;
+    font-style: italic;
+    font-family: "Courier New", monospace;
+}
+
+a.navigator:hover {
+    background-color: #447744;
+    color: #FFFFFF;
+}
+
+
+/*
+ * vim:tw=78:ts=4:et
+ */

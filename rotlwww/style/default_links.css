@@ -1,0 +1,47 @@
+/*
+ *  Styles exclusive for the links page.
+ *
+ *  ReyBrujo, 2005
+ */
+
+
+div.link {
+    background-color: #BBDDCC;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 2em;
+
+    border-top: 1px solid #226633;
+    border-left: 1px solid #226633;
+    border-right: 2px solid #226633;
+    border-bottom: 2px solid #226633;
+}
+
+div.link-logo {
+    float: right;
+    background-color: #BBDDCC;
+}
+
+div.link-link {
+    /*  nothing  */
+}
+
+div.link-explanation {
+    padding-top: 0em;
+    padding-bottom: 1em;
+    border: 1px solid #226633;
+}
+
+p.body {
+    /*  overrides common body style  */
+    border: 0em;
+    margin-bottom: 0em;
+}
+
+hr.title {
+    /*  overrides common title style  */
+}
+
+/*
+ * vim:tw=78:ts=4:et
+ */

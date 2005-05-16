@@ -1,0 +1,36 @@
+/*
+ *  Stylesheet for the bottom toolbar.
+ *
+ *  ReyBrujo, 2005
+ */
+
+
+div.bottom {
+    position: absolute;
+
+    top: 14em;
+    left: 1.5em;
+    width: 6em;
+
+    padding: 1em;
+
+    background-color: #BBDDCC;
+    border: 1px solid #000000;
+}
+
+div.bottom_left {
+    padding-left: 0.5em;
+}
+
+div.bottom_right {
+    padding-left: 0.5em;
+}
+
+div.bottom_center {
+    padding-left: 0.5em;
+}
+
+
+/*
+ * vim:tw=78:ts=4:et
+ */

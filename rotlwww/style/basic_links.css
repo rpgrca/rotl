@@ -28,17 +28,6 @@ div.link-explanation {
     clear: both;
 }
 
-a img {
-    background-color: #FFFFFF;
-}
-
-@media all {
-    a img {
-        background-color: inherit;
-        border: none;
-    }
-}
-
 
 /*
  * vim:tw=78:ts=4:et

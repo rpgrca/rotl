@@ -1,0 +1,71 @@
+/*
+ *  Stylesheet for the body of the page. Includes some "fixes" for IE.
+ *
+ *  ReyBrujo, 2005
+ */
+
+@import url(common_body.css);
+
+div.body {
+    display: table;
+    float: right;
+    position: absolute;
+
+    font-family: "Courier New", monospace;
+    font-size: 8pt;
+
+    left: 18em;
+    top: 10em;
+    padding: 1em;
+    width: 50em;
+    margin-bottom: 2em;
+
+    background-color: #BBDDCC;
+    border: 1px solid #000000;
+}
+
+p.body {
+    /*  inherits from the base  */
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: 3em;
+
+    border-right: 1px solid #226633;
+    border-bottom: 1px solid #226633;
+}
+
+h2.title {
+    float: left;
+
+    font-size: 14pt;
+    font-style: italic;
+    font-family: "Courier New", monospace;
+}
+
+h2.version {
+    float: right;
+
+    font-size: 12pt;
+    font-style: italic;
+    font-family: "Courier New", monospace;
+}
+
+
+/*
+h3.question {
+    font-style: italic;
+    font-family: "Courier New", monospace;
+    font-size: 10pt;
+    font-weight: normal;
+
+    text-align: right;
+    background-color: #93BFD0;
+}
+
+
+*/
+
+
+/*
+ * vim:tw=78:ts=4:et
+ */

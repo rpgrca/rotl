@@ -5,6 +5,8 @@
  */
 
 
+@import url(common_body.css);
+
 div.body {
     position: relative;
     z-index: 1;
@@ -33,11 +35,26 @@ h3.question {
     background-color: #93BFD0;
 }
 
-p.body {
-    text-align: justify;
+h2.title {
+    position: relative;
+    float: left;
+    display: inline;
 
+    text-align: left;
+    font-size: 12pt;
+    font-weight: normal;
+    font-style: italic;
     font-family: "Courier New", monospace;
-    font-size: 8pt;
+}
+
+h2.version {
+    float: right;
+
+    text-align: right;
+	font-weight: normal;
+    font-size: 12pt;
+    font-style: italic;
+    font-family: "Courier New", monospace;
 }
 
 

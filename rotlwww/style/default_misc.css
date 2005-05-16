@@ -1,0 +1,38 @@
+/*
+ *  Miscellaneous styles.
+ *
+ *  ReyBrujo, 2005
+ */
+
+
+@import url(common_misc.css);
+
+
+html, body {
+    background-color: #226633;
+    color: #000000;
+}
+
+a img {
+    background-color: #BBDDCC;
+}
+
+acronym, abbr {
+    /*  inherits from the base  */
+    background-color: #DDEECC;
+    color: #226633;
+    border: 1px solid #226633;
+
+    padding: 1px;
+}
+
+hr.title {
+    /*  inherits from the base  */
+    color: #226633;
+    background-color: #226633;
+}
+
+
+/*
+ * vim:tw=78:ts=4:et
+ */

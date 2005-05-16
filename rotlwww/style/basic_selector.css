@@ -4,6 +4,7 @@
  *  ReyBrujo, 2005
  */
 
+@import url(common_selector.css);
 
 div.stylesheet-selector {
     padding: 1%;
@@ -15,24 +16,9 @@ div.stylesheet-selector {
     border-bottom: 2px solid #3885CA;
 }
 
-
-select.stylesheet-selector {
-    font-family: "Courier New", monospace;
-    font-size: 8pt;
-    width: 100%;
-}
-
-
 label.selector {
-    font-family: "Courier New", monospace;
-    font-size: 8pt;
-
+    /*  inherits from the base  */
     color: #3885CA;
-    text-align: center;
-}
-
-
-button.button-stylesheet {
 }
 
 

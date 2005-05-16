@@ -1,0 +1,45 @@
+/*
+ *  Stylesheet for general purpose styles.
+ *
+ *  ReyBrujo, 2005
+ */
+
+
+.invisible {
+    display: none;
+}
+
+hr.title {
+    clear: both;
+}
+
+a.wikipedia {
+    display: none;
+    text-decoration: none;
+}
+
+@media all {
+    a img {
+        background-color: inherit;
+        border: none;
+    }
+}
+
+span.tooltip {
+	display: none;
+	text-decoration: none;
+}
+
+div.justified {
+    text-align: justify;
+}
+
+acronym, abbr {
+    font-style: italic;
+    cursor: help;
+}
+
+
+/*
+ * vim:tw=78:ts=4:et
+ */

@@ -1,0 +1,31 @@
+/*
+ *  Stylesheet for the stylesheet selector.
+ *
+ *  ReyBrujo, 2005
+ */
+
+
+select.stylesheet-selector {
+    font-family: "Courier New", monospace;
+    font-size: 8pt;
+    width: 100%;
+}
+
+label.selector {
+    font-family: "Courier New", monospace;
+    font-size: 8pt;
+    text-align: center;
+}
+
+button.button-stylesheet {
+    /*  nothing  */
+}
+
+.selector-invisible {
+    display: none;
+}
+
+
+/*
+ * vim:tw=78:ts=4:et
+ */
