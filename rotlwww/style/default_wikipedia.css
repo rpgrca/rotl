@@ -1,0 +1,20 @@
+/*
+ *  Stylesheet for the "wiki" page. The stylesheet will display
+ *  links to Wikipedia for user reference.
+ *
+ *  ReyBrujo, 2005
+ */
+
+
+a.wikipedia {
+    display: inline;
+}
+
+span.wikipedia {
+    background-color: #DDFFEE;
+}
+
+
+/*
+ * vim:tw=78:ts=4:et
+ */

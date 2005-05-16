@@ -9,10 +9,12 @@
         <META name="description" lang="en" content="Rise of the Legend, a framework for building strategic games">
         <title>Rise of the Legend - Home Page</title>
 
-        <link rel="stylesheet" type="text/css" href="style/default.css" title="Default">
-        <link rel="alternate stylesheet" type="text/css" href="style/basic.css" title="Basic">
-        <link rel="alternate stylesheet" type="text/css" href="style/wikipedia.css" title="Basic+Wikipedia">
-        <LINK rel="alternate stylesheet" type="text/css" href="style/none.css" title="None">
+        <link rel="stylesheet" type="text/css" href="style/default.css" title="Default" media="screen">
+        <!--  FIXME: putting wiki_default.css above wiki_basic.css breaks the later  -->
+        <link rel="alternate stylesheet" type="text/css" href="style/wiki_basic.css" title="Basic+Wikipedia" media="screen">
+        <link rel="alternate stylesheet" type="text/css" href="style/wiki_default.css" title="Default+Wikipedia" media="screen">
+        <link rel="alternate stylesheet" type="text/css" href="style/basic.css" title="Basic" media="screen">
+        <LINK rel="alternate stylesheet" type="text/css" href="style/none.css" title="None" media="all">
         <script type="text/javascript" src="scripts/styleswitcher.js"></script>
     </HEAD>
 
@@ -41,6 +43,7 @@
                         <LABEL accesskey="s" class="selector" for="stylesheet_selector">Style selector:</LABEL>
                         <SELECT class="stylesheet-selector" name="Stylesheet Selector" size="5" id="stylesheet_selector">
                             <option value="Default" selected>Default</OPTION>
+                            <OPTION value="Default+Wikipedia">Default+Wikipedia</OPTION>
                             <option value="Basic">Basic</OPTION>
                             <option value="Basic+Wikipedia">Basic+Wikipedia</OPTION>
                             <OPTION value="None">None</OPTION>

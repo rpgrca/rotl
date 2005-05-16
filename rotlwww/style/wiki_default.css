@@ -1,5 +1,5 @@
 /*
- *  Basic stylesheet (working on Internet Explorer).
+ *  Wiki stylesheet.
  *
  *  ReyBrujo, 2005
  */
@@ -11,6 +11,7 @@
 @import url(default_body.css);
 @import url(default_bottom.css);
 @import url(default_misc.css);
+@import url(default_wikipedia.css);
 
 
 /*
