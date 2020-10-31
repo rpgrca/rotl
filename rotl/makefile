@@ -10,15 +10,15 @@ OBJFILES := $(addsuffix .o,$(addprefix $(OBJDIR)/,$(OBJFILES)))
 DEPFILE   = makefile.dep
 GCC       = g++
 ifdef USE_CURSES
-LFLAGS    = -lpdcurses
+LFLAGS    = -lncurses
 else
 LFLAGS    =
 endif
-CXXFLAGS  = -mwindows -g -ggdb3 -Wall -W -Werror
+CXXFLAGS  = -g -ggdb3 -Wall -W
 #-ffast-math -fomit-frame-pointer -funroll-loops -Wall -Werror
 DFLAGS    = -MM
 
-BIN = $(BINDIR)/main.exe
+BIN = $(BINDIR)/main
 
 all : $(BIN)
 

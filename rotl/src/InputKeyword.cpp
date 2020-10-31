@@ -130,11 +130,11 @@ void CInputKeyword::PollCommand(const enWeekType eWeekType, CPlayer* pPlayer,
     pUnit = pPlayer->GetUnit(pPlayer->GetCurrentUnit());
     switch (eWeekType) {
         case enWEEKTYPE_MOVEMENT:
-            if (! strnicmp(strBuffer, "HELP\0", 5) || ! strnicmp(strBuffer, "H\0", 2)) {
+            if (! strncmp(strBuffer, "HELP\0", 5) || ! strncmp(strBuffer, "H\0", 2)) {
                 puts("You can move the army NORTH, SOUTH, EAST and WEST, my lord.");
             }
             else
-            if (! strnicmp(strBuffer, "NORTH\0", 6) || ! strnicmp(strBuffer, "N\0", 2)) {
+            if (! strncmp(strBuffer, "NORTH\0", 6) || ! strncmp(strBuffer, "N\0", 2)) {
                 pArmyActionMarch = new CArmyActionMarchNormal;
 
                 pArmyActionMarch->SetUnit(pUnit);
@@ -149,7 +149,7 @@ void CInputKeyword::PollCommand(const enWeekType eWeekType, CPlayer* pPlayer,
                 }
             }
             else
-            if (! strnicmp(strBuffer, "SOUTH\0", 6) || ! strnicmp(strBuffer, "S\0", 2)) {
+            if (! strncmp(strBuffer, "SOUTH\0", 6) || ! strncmp(strBuffer, "S\0", 2)) {
                 pArmyActionMarch = new CArmyActionMarchNormal;
 
                 pArmyActionMarch->SetUnit(pUnit);
@@ -164,7 +164,7 @@ void CInputKeyword::PollCommand(const enWeekType eWeekType, CPlayer* pPlayer,
                 }
             }
             else
-            if (! strnicmp(strBuffer, "EAST\0", 5) || ! strnicmp(strBuffer, "E\0", 2)) {
+            if (! strncmp(strBuffer, "EAST\0", 5) || ! strncmp(strBuffer, "E\0", 2)) {
                 pArmyActionMarch = new CArmyActionMarchNormal;
 
                 pArmyActionMarch->SetUnit(pUnit);
@@ -179,7 +179,7 @@ void CInputKeyword::PollCommand(const enWeekType eWeekType, CPlayer* pPlayer,
                 }
             }
             else
-            if (! strnicmp(strBuffer, "WEST\0", 5) || ! strnicmp(strBuffer, "W\0", 2)) {
+            if (! strncmp(strBuffer, "WEST\0", 5) || ! strncmp(strBuffer, "W\0", 2)) {
                 pArmyActionMarch = new CArmyActionMarchNormal;
 
                 pArmyActionMarch->SetUnit(pUnit);
@@ -196,11 +196,11 @@ void CInputKeyword::PollCommand(const enWeekType eWeekType, CPlayer* pPlayer,
             break;
 
         case enWEEKTYPE_PLANNING:
-            if (! strnicmp(strBuffer, "HELP\0", 5) || ! strnicmp(strBuffer, "H\0", 2)) {
+            if (! strncmp(strBuffer, "HELP\0", 5) || ! strncmp(strBuffer, "H\0", 2)) {
                 puts("You can plan to FARM, BUILD or CLAIM a city, my lord.\n");
             }
             else
-            if (! strnicmp(strBuffer, "FARM\0", 5) || ! strnicmp(strBuffer, "F\0", 2)) {
+            if (! strncmp(strBuffer, "FARM\0", 5) || ! strncmp(strBuffer, "F\0", 2)) {
                 pCity = pMap->GetCityAt(pUnit->GetLocationX(), pUnit->GetLocationY());
 
                 if (pCity != NULL) {
@@ -219,7 +219,7 @@ void CInputKeyword::PollCommand(const enWeekType eWeekType, CPlayer* pPlayer,
                     puts("But... there are no farms to work, my lord!\n");
             }
             else
-            if (! strnicmp(strBuffer, "BUILD\0", 6) || ! strnicmp(strBuffer, "B\0", 2)) {
+            if (! strncmp(strBuffer, "BUILD\0", 6) || ! strncmp(strBuffer, "B\0", 2)) {
                 pCity = pMap->GetCityAt(pUnit->GetLocationX(), pUnit->GetLocationY());
 
                 if (pCity != NULL) {
@@ -238,7 +238,7 @@ void CInputKeyword::PollCommand(const enWeekType eWeekType, CPlayer* pPlayer,
                    puts("But... there are no walls here to build, my lord!\n");
             }
             else
-            if (! strnicmp(strBuffer, "CLAIM\0", 6) || ! strnicmp(strBuffer, "C\0", 2)) {
+            if (! strncmp(strBuffer, "CLAIM\0", 6) || ! strncmp(strBuffer, "C\0", 2)) {
                 pCity = pMap->GetCityAt(pUnit->GetLocationX(), pUnit->GetLocationY());
 
                 if (pCity != NULL) {
