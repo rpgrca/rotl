@@ -13,6 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: create directories
+      working-directory: rotl
+      run: mkdir obj bin
     - name: make
       working-directory: rotl
       run: make USE_CURSES=1
